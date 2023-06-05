@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+#parent {
+    margin: 0 auto;
+    width: 500px;
+}
+#form {
+    display: flex;
+    margin-bottom: 15px;
+}
+#form input {
+    padding: 8px;
+    width: 24%;
+    margin: 0 0.5% 10px  0.5%;
+    border: 3px solid #776de4;
+    border-radius: 10px;
+}
+h2 {
+    margin-top: 0;
+    margin-bottom: 7px;
+}
+#table {
+    width: 100%;
+    margin-bottom: 10px;
+}
+#table td, #table th {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #776de4;
+    border-radius: 10px;
+}
+#table td.remove {
+    color: #776de4;
+    cursor: pointer;
+    text-decoration: none;
+}
+#table td.removeL:hover {
+    text-decoration: none;
+}
+#result {
+    text-align: right;
+    margin-right: 10px;
+}

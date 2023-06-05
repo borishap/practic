@@ -1,0 +1,20 @@
+[class^="k"] {
+	display: grid;
+	place-items: center;
+	border: 1px solid #776de4;
+}
+
+[class^="k"]:hover {
+	background-color: #776de4;
+	color: white;
+}
+
+.container {
+	display: grid;
+	width: 1600px;
+	grid-template-columns: repeat(14, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+}
+#input{
+    border-color: #776de4;
+}

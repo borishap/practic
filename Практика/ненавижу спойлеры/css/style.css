@@ -1,0 +1,15 @@
+.spoiler:not(.active) {
+	display: none;
+}
+.black {
+	background-color: #776de4;
+	width: 100%;
+	height: 1rem;
+}
+.black:not(.active) {
+	display: none;
+}
+a{
+    text-decoration: none;
+    color: #776de4;
+}

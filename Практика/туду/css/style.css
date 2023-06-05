@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+}
+#input, #list {
+    display: inline-block;
+}
+#list {
+    padding: 0;
+    list-style-type: none;
+    color: #776de4;
+}
+#list span {
+    margin-right: 5px;
+}
+#list .remove, #list .mark {
+    color: #776de4;
+    cursor: pointer;
+}
+#list .remove:hover, #list .mark:hover {
+    text-decoration: none;
+}
+#list .done {
+    text-decoration: line-through;
+}
+#input {
+    width: 300px;
+}
+#input:focus {
+    border: 2px solid #776de4;
+}

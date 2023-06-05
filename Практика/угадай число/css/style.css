@@ -1,0 +1,20 @@
+#main {
+    text-align: center;
+}
+#board {
+    display: inline-block;
+    padding-top: 50%;
+}
+
+#board td {
+    padding: 20px;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 100px;
+    width: 25px;
+    height: 25px;
+    
+}
+.active {
+    background: #776de4;
+}

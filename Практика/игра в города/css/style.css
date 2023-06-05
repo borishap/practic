@@ -1,0 +1,34 @@
+#message {
+    background-color: #776de4;
+    font-size: 16px;
+}
+#inp {
+    width: 100%;
+    height: 40px;
+}
+.fail:not(.active) {
+    display: none;
+}
+.fail {
+    font-size: 100px;
+    color: rgb(11, 2, 2);
+    text-align: center;
+    display: block;
+}
+.gameover {
+    display: none;
+}
+#player1 {
+    color: rgb(255, 255, 255);
+    
+}
+#player2 {
+    color: rgb(222, 12, 12);
+}
+#player1, #player2 {
+    text-align: center;
+    font-size: 25px;
+}
+.turn {
+    display: none;
+}
